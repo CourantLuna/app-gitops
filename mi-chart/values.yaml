@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 image:
   repository: mi-app-node
   tag: "1.0"
