@@ -1,0 +1,10 @@
+replicaCount: 1
+image:
+  repository: mi-app-node
+  tag: "1.0"
+  pullPolicy: Never
+config:
+  mensajePersonalizado: "Hola Profesor, despliegue con Argo CD exitoso!"
+service:
+  type: LoadBalancer
+  port: 8080
